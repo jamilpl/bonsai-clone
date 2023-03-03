@@ -4,7 +4,7 @@
 
 @layer components {
   .button {
-    @apply px-3.5 py-2 border rounded border-transparent text-white font-semibold text-xs bg-primary uppercase hover:bg-[#008868];
+    @apply px-2.5 py-2 border rounded border-transparent text-white font-semibold text-xs bg-primary uppercase hover:bg-[#008868];
   }
 
   .card {
