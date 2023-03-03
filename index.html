@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/output.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+  <body class="font-montserrat text-secondary">
+    <header class="w-[90%] max-w-6xl mx-auto h-20 flex justify-between items-center">
+      <img class="w-24 sm:w-36" src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e5fd7c602ca7cd432feb68e_bonsai-logo.svg" alt="logo bonsai">
+
+      <nav class="hidden lg:flex">
+        <ul class="flex gap-8 font-medium">
+          <li>
+            <a href="#" class="hover:text-primary">Product<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="space-x-2">
+        <button class="px-2.5 py-2 border rounded border-primary text-primary font-semibold text-xs uppercase sm:px-5 sm:py-2.5 sm:text-sm hover:bg-primary hover:text-white">Log In</button>
+        <button class="button  sm:px-7 sm:py-2.5 sm:text-sm">Start Free</button>
+      </div>
+    </header>
+
+    <main class="w-[90%] max-w-6xl mx-auto pt-5 pb-40 md:pt-20">
+      <section class="space-y-10 pb-20">
+        <div class="flex flex-col items-center gap-16 md:flex-row justify-center">
+          <h2 class="text-3xl font-medium md:text-4xl">Plans & Pricing</h2>
+  
+          <div class="flex items-center gap-2 relative">
+            <p class="text-lg font-medium">Monthly</p>
+            <label for="check" class="bg-primary w-16 h-8 relative rounded-full cursor-pointer">
+              <input type="checkbox" id="check" class="sr-only peer">
+              <span class="w-2/5 h-3/4 bg-white absolute rounded-full left-1 top-1 peer-checked:bg-white peer-checked:left-9 transition-all duration-300"></span>
+            </label>
+            <p class="text-lg text-gray-400 font-medium">Yearly</p>
+            <img class="absolute bottom-6 left-28" src="https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e9d7255d3886a6103fb12a9_FREE-text.svg" alt="2 months free">
+          </div>
+        </div>
+  
+        <section class="flex flex-col gap-7 lg:flex-row lg:justify-between">
+          <div class="card">
+            <p class="text-xl font-bold">Starter</p>
+            <p class="text-sm font-medium mt-1">Ideal for freelancers and contractors just starting out.</p>
+            <div class="my-7 flex items-end gap-1.5 border-b-2 border-primary">
+              <span class="text-3xl font-medium relative bottom-2">$</span>
+              <span class="text-5xl font-semibold">24</span>
+              <p class="text-2xl font-medium uppercase ">/month</p>
+            </div>
+            <ul class="space-y-4">
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> All templates
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Unlimited Clients & Projects
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Invoicing & Payments
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Proposals & Contracts
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Tasks & Time Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Client CRM
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Expense Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Up to 5 Projects Collaborators
+              </li>
+            </ul>
+            <button class="card-button">Start Free</button>
+          </div>
+
+          <div class="card">
+            <p class="text-xl font-bold">Starter</p>
+            <p class="text-sm font-medium mt-1">Ideal for freelancers and contractors just starting out.</p>
+            <div class="my-7 flex items-end gap-1.5 border-b-2 border-primary">
+              <span class="text-3xl font-medium relative bottom-2">$</span>
+              <span class="text-5xl font-semibold">24</span>
+              <p class="text-2xl font-medium uppercase ">/month</p>
+            </div>
+            <ul class="space-y-4">
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> All templates
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Unlimited Clients & Projects
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Invoicing & Payments
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Proposals & Contracts
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Tasks & Time Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Client CRM
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Expense Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Up to 5 Projects Collaborators
+              </li>
+            </ul>
+            <button class="card-button">Start Free</button>
+          </div>
+
+          <div class="card">
+            <p class="text-xl font-bold">Starter</p>
+            <p class="text-sm font-medium mt-1">Ideal for freelancers and contractors just starting out.</p>
+            <div class="my-7 flex items-end gap-1.5 border-b-2 border-primary">
+              <span class="text-3xl font-medium relative bottom-2">$</span>
+              <span class="text-5xl font-semibold">24</span>
+              <p class="text-2xl font-medium uppercase ">/month</p>
+            </div>
+            <ul class="space-y-4">
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> All templates
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Unlimited Clients & Projects
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Invoicing & Payments
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Proposals & Contracts
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Tasks & Time Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Client CRM
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Expense Tracking
+              </li>
+              <li class="flex items-center gap-1.5">
+                <i class="fa-solid fa-check text-primary"></i> Up to 5 Projects Collaborators
+              </li>
+            </ul>
+            <button class="card-button">Start Free</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="pb-20">
+        <h2 class=" mb-10 text-2xl font-semibold text-center lg:text-3xl">Super charge your work with add-ons</h2>
+        <div class="space-y-7">
+          <div class="card-secondary">
+            <div class="space-y-2">
+              <p class="font-bold">Collaborators</p>
+              <p class="text-sm font-medium">Invite other users to specific projects for limited access and functionality.</p>
+            </div>
+            <div>
+              <span class="text-xl font-bold">Free</span>
+            </div>
+          </div>
+
+          <div class="card-secondary">
+            <div class="space-y-2">
+              <p class="font-bold">Partners</p>
+              <p class="text-sm font-medium">Invite other users for full account access and company management.</p>
+            </div>
+            <div class="flex flex-col text-center">
+              <span class="text-3xl font-bold">$9</span>
+              <span class="uppercase font-medium">/month</span>
+            </div>
+          </div>
+
+          <div class="card-secondary">
+            <div class="space-y-2">
+              <p class="font-bold">Bonsai Tax</p>
+              <p class="text-sm font-medium">Track expenses, identify write-offs, and estimate quarterly taxes easily.</p>
+              <a href="#" class="inline-block uppercase text-primary text-sm font-semibold">learn more <i class="fa-solid fa-chevron-right text-xs"></i></a>
+            </div>
+            <div class="flex flex-col text-center">
+              <span class="text-3xl font-bold">$10</span>
+              <span class="uppercase font-medium">/month</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="mb-24 py-12 px-5 flex justify-between items-center gap-5 bg-[#f2faff] shadow-md rounded-lg md:px-8 md:py-16">
+        <p class="max-w-sm text-2xl text-black font-medium md:text-3xl">It’s <span class="text-primary">your</span> business. We’re here to help it grow.</p>
+        <button class="button w-44 h-14 px-7 md:text-sm">start free</button>
+      </div>
+
+      <section class="max-w-3xl mx-auto">
+        <h2 class="text-primary text-2xl font-bold text-center mb-8 md:text-3xl">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <div class="flex justify-between items-center gap-5 cursor-pointer hover:text-primary">
+            <p class="text-xl font-semibold md:text-2xl">How does the free trial work?</p>
+            <i class="fa-solid fa-chevron-down text-xl"></i>
+          </div>
+          <div class="flex justify-between items-center gap-5 cursor-pointer hover:text-primary">
+            <p class="text-xl font-semibold md:text-2xl">Can I change plans anytime?</p>
+            <i class="fa-solid fa-chevron-down text-xl"></i>
+          </div>
+          <div class="flex justify-between items-center gap-5 cursor-pointer hover:text-primary">
+            <p class="text-xl font-semibold md:text-2xl">How do I pause my Bonsai subscription?</p>
+            <i class="fa-solid fa-chevron-down text-xl"></i>
+          </div>
+          <div class="flex justify-between items-center gap-5 cursor-pointer hover:text-primary">
+            <p class="text-xl font-semibold md:text-2xl">What is your refund policy?</p>
+            <i class="fa-solid fa-chevron-down text-xl"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-[90%] max-w-6xl mx-auto pb-20 space-y-20 lg:flex lg:justify-between lg:space-y-0">
+      <div>
+        <h3 class="font-semibold uppercase text-xl mb-6">product</h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="#" class="hover:text-primary">Contracts</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Invoicing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Client CRM</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Time Tracking</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Tast Tracking</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Forms</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Accounting</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Bonsai Tax</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Bonsai cash</a>
+          </li>
+          <li class="pt-5">
+            <a href="#" class="text-primary">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Bonsai Reviews</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="space-y-16">
+        <div>
+          <h3 class="font-semibold uppercase text-xl mb-6">free resources</h3>
+          <ul class="space-y-3">
+            <li>
+              <a href="#" class="hover:text-primary">Freelance Resources</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Freelance Blog by Bonsai</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">How to Write a Contract</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Online Signature Maker</a>
+            </li>
+            <li class="pt-5">
+              <a href="#" class="hover:text-primary">Self-Employed Taxes Hub</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Self-Employed Tax Calculator</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Self-Employed Tax Deductions</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div>
+          <h3 class="font-semibold uppercase text-xl mb-6">templates</h3>
+          <ul class="space-y-3">
+            <li>
+              <a href="#" class="hover:text-primary">Invoice Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Proposal Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Contract Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Agreement Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Scope of Work Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Quote Templates<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Credit Note Templates</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Estimate Templates</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-primary">Form Templates</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold uppercase text-lg mb-6">bonsai</h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="#" class="hover:text-primary">About</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Careers</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Support</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Twitter</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Privacy policy</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Legal</a>
+          </li>
+          <li class="pt-5">
+            <a href="#" class="hover:text-primary">Affiliates</a>
+          </li>
+          <li class="pb-5">
+            <a href="#" class="hover:text-primary">Write for Us</a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-primary">Comparisons<i class="fa-solid fa-chevron-down ml-1 text-sm"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

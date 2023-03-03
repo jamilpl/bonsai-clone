@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply px-3.5 py-2 border rounded border-transparent text-white font-semibold text-xs bg-primary uppercase hover:bg-[#008868];
+  }
+
+  .card {
+    @apply py-10 px-7 rounded-md border border-gray-300 shadow-md;
+  }
+
+  .card-button {
+    @apply button mt-16 w-full py-5 text-sm leading-none;
+  }
+
+  .card-secondary {
+    @apply py-10 px-5 flex items-center justify-between gap-3 border rounded-md shadow-md md:h-40;
+  }
+}
